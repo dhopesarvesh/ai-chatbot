@@ -1,0 +1,20 @@
+# Web Framework & Server
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+mysql-connector-python
+
+# Environment & Validation
+pydantic[email]
+pydantic-settings
+python-dotenv
+
+# Security & Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# AI Integration
+google-generativeai
