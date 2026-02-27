@@ -2,9 +2,9 @@
 fastapi
 uvicorn
 
-# Database
+# Database (Swapped to PyMySQL for better compatibility)
 sqlalchemy
-mysql-connector-python
+pymysql
 
 # Environment & Validation
 pydantic[email]
@@ -16,6 +16,7 @@ python-jose[cryptography]
 bcrypt==4.0.1
 passlib[bcrypt]
 python-multipart
+cryptography
 
 # AI Integration
 google-generativeai
