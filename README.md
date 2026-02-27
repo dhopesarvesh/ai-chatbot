@@ -40,19 +40,20 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 GEMINI_API_KEY=your_actual_gemini_key
 ```
 
-# 1. Create virtual environment
+# Environment Setup
+ 1. Create virtual environment
 python -m venv chatbot_env
 
-# 2. Activate environment
-# On Mac/Linux:
-source chatbot_env/bin/activate 
-# On Windows:
-.\chatbot_env\Scripts\activate
+ 2. Activate environment
+ On Mac/Linux:
+  source chatbot_env/bin/activate 
+ On Windows:
+  .\chatbot_env\Scripts\activate
 
-# 3. Install dependencies
+ 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Start the server
+ 4. Start the server
 uvicorn app.main:app --reload
 
 # Tech Stack
@@ -66,4 +67,4 @@ AI: Google Generative AI (Gemini)
 
 Auth: JWT (JSON Web Tokens)
 
-# For APIS refer to localhost:8000/docs (after successfull running of application)
+ For APIS refer to localhost:8000/docs (after successfull running of application)
