@@ -47,7 +47,7 @@ python -m venv chatbot_env
 # On Mac/Linux:
 source chatbot_env/bin/activate 
 # On Windows:
-# .\chatbot_env\Scripts\activate
+.\chatbot_env\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -66,3 +66,4 @@ AI: Google Generative AI (Gemini)
 
 Auth: JWT (JSON Web Tokens)
 
+# For APIS refer to localhost:8000/docs (after successfull running of application)
