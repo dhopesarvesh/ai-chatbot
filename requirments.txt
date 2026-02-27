@@ -2,8 +2,9 @@
 fastapi
 uvicorn
 
-# Database (Swapped to PyMySQL for better compatibility)
+# Database 
 sqlalchemy
+mysql-connector-python
 pymysql
 
 # Environment & Validation
