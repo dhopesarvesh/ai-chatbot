@@ -68,3 +68,5 @@ AI: Google Generative AI (Gemini)
 Auth: JWT (JSON Web Tokens)
 
  For APIS refer to localhost:8000/docs (after successfull running of application)
+
+ Web-Application is deployed on https://ai-chatbot-rili.onrender.com
